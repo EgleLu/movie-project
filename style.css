@@ -1,0 +1,265 @@
+
+body {
+	background-color: #202F36;
+}
+.navbar{
+	background-color: #202F36;
+	font-style: oblique;
+}
+
+.brandimg{
+	height: 30px;
+}
+.brand{
+	color: #8F444C;
+	padding-bottom: 0;
+	margin-bottom: 0px;
+}
+.font{
+	color: white;
+	font-style: oblique;
+	text-align: center;
+  }
+
+.font1{
+color: #8F444C;
+font-size: 25px;
+}
+.font :hover {
+	color: #8F444C;
+}
+.font2{
+	color: white;
+	font-style: oblique;
+	font-size: 13px;
+	text-align: left;
+
+}
+
+.font3{
+	color: #8F444C;
+	
+	padding: 15px 0 0 15px;
+	font-size: 24px;
+	text-align: left;
+}
+.font4{
+	color: white;
+	font-style: oblique;
+	font-size: 16px;
+	text-align: left;
+	padding: 10px 15px;
+}
+.font5{
+	color: #90979b;
+	font-size: 12px;
+	padding-left: 15px;
+
+}
+
+.font4 a {
+	color: white;
+	font-size: 16px;
+}
+
+.font4 a:hover {
+	color: #8F444C;
+}
+
+
+.btn{
+	height: 100px
+}
+.jumbotron {
+height: 100vh;
+background-image: url("img/cinema5.jpg");
+background-size: cover;
+
+
+}
+.aboutUs{
+	text-align: center;
+	padding-top: 100px; 
+	padding-bottom: 50px;
+	color: white;
+	font-style: oblique;
+}
+.imgAbout{
+	height: 220px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+
+}
+.pAbout{
+	padding-left: 30px;
+}
+.text1{
+	padding-bottom: 50px;
+}
+.icon{
+	height: 100px;
+	padding: 5px 5px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Qabout{
+	font-style: oblique;
+	text-align: center;
+	color: #8F444C;
+	margin-bottom: 20px;
+
+}
+.paragraph{
+	
+	margin-bottom: 50px;
+
+}
+
+.filmImg{
+	height: 220px;
+	 border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.filmImg:hover {opacity: 0.7;}
+
+.filmTitle{
+	color: white;
+	padding: 0px 0px;
+	margin: 0px 0px;
+	font-style: oblique;
+	font-size: 17px;
+}
+.filmTime{
+	color: #8F444C;
+	margin-bottom: 0;
+}
+.trailer{
+	color: #8F444C;
+	font-size: 15px;
+}
+
+.trailer:hover {
+	color: white;
+}
+
+
+.front{
+	margin-top: 20%;
+	color: white;
+	font-style: oblique;
+
+}
+.button {
+	height: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+}
+
+.button:hover {
+    background-color: #552832; 
+    color: white;
+}
+.button1 {
+	height: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #552832;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.button1:hover {
+    background-color: #8F444C; 
+    color: white;
+}
+#news {
+	background-color: #8F444C;
+	
+}
+.new1{
+	padding-top: 10px;
+	background-color: #202F36;
+	margin-bottom: 40px;
+	border-radius: 25px;
+	height:600px;
+}
+
+.newsImg{
+	height: 180px;
+	width: 300px;
+	object-fit: cover;
+	display: block;
+	margin: 0 auto;
+	border-radius: 25px;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#register{
+	margin-bottom: 50px;
+}
+
+form div:nth-child(5){
+margin-top: 30px;
+}
+
+footer {
+  background: #061D25;
+  padding: 10px 0;
+  text-align: center;
+}
+footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+footer a:hover {
+  color: white;
+}
+.modal-header, .modal-body, .modal-footer{
+	background-color: #202F36;
+}
+
+@media only screen and (max-width: 600px) {
+	.filmImg{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	.filmTitle, .filmTime, .font2 {
+		text-align: center;
+		padding-top: 5px
+	}
+	.front{
+		padding-top: 110px;
+	}
+	.pAbout{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.aboutUs{
+		padding-top: 20px;
+	}
+	#films{
+		padding-bottom: 30px;
+	}
+
+
+   }
